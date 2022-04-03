@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  height: 100vh;
+  min-width: 500px;
+}
+
+/* div {
+  height: 50px;
+  width: 50px;
+  border: 2px solid;
+} */
+
+input {
+  height: 50px;
+  width: 50px;
+  margin: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2em;
+}
